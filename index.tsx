@@ -15,10 +15,10 @@ const root = createRoot(rootElement);
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
 
-  { path: '/', element: <Activites /> },
-  { path: '/', element: <ChambresEtBungalows /> },
-  { path: '/', element: <Locations /> },
-  { path: '/', element: <Evenements /> },
+  { path: '/activites', element: <Activites /> },
+  { path: '/chambresetbungalows', element: <ChambresEtBungalows /> },
+  { path: '/locations', element: <Locations /> },
+  { path: '/evenements', element: <Evenements /> },
 ]);
 
 root.render(
