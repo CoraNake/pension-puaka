@@ -8,6 +8,7 @@ import { Activites } from './pages/Activites';
 import { ChambresEtBungalows } from './pages/ChambresEtBungalows';
 import { Evenements } from './pages/Evenements';
 import { Locations } from './pages/Locations';
+import { Formules } from './pages/Formules';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -19,6 +20,8 @@ const router = createBrowserRouter([
   { path: '/chambresetbungalows', element: <ChambresEtBungalows /> },
   { path: '/locations', element: <Locations /> },
   { path: '/evenements', element: <Evenements /> },
+  { path: '/formules', element: <Formules /> },
+
 ]);
 
 root.render(

@@ -62,28 +62,28 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Chambres & Bungalows
+                    <a className="dropdown-item" href="/chambresetbungalows">
+                      Chambres Et Bungalows
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/activites">
                       Activités
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/locations">
                       Locations
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/evenements">
                       Evénements
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Activités
+                    <a className="dropdown-item" href="/formules">
+                      Formules
                     </a>
                   </li>
                 </ul>
