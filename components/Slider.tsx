@@ -41,7 +41,7 @@ export default function App() {
         <SwiperSlide>
           <img
             src={slide.url}
-            style={{ height: '30rem', minWidht: '100%', objectFit: 'cover' }}
+            style={{ height: '30rem', minWidth: '100%', objectFit: 'cover' }}
           />
         </SwiperSlide>
       ))}
