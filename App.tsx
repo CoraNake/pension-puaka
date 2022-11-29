@@ -13,6 +13,7 @@ import { Reservations } from './pages/Reservations';
 import { Contact } from './pages/Contact';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Footer from './components/Footer';
 
 export default function App() {
   const router = createBrowserRouter([
@@ -30,9 +31,10 @@ export default function App() {
   return (
     <React.Fragment>
       <Navbar />
+      <Slider />
       <RouterProvider router={router} />
 
-      <footer>Je suis le footer</footer>
+      <Footer />
     </React.Fragment>
   );
 }
