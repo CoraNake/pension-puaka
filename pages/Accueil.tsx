@@ -17,7 +17,12 @@ export function Accueil() {
           <div className="row">
             <div className="col col-md-4">
               <div className="card">
-                <img src="https://frenchmorning.com/wp-content/uploads/2018/06/12719328_10153885901760505_5434314716880717998_o.jpg" className="card-img-top" alt="..." />
+                <img
+                  src="https://frenchmorning.com/wp-content/uploads/2018/06/12719328_10153885901760505_5434314716880717998_o.jpg"
+                  className="card-img-top"
+                  style={{ objectFit: 'cover' }}
+                  alt="..."
+                />
                 <div className="card-body">
                   <p className="card-text">Nos services</p>
                 </div>
@@ -25,7 +30,15 @@ export function Accueil() {
             </div>
             <div className="col col-md-4">
               <div className="card">
-                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/ce/39/02/bay-view-bungalow.jpg?w=1400&h=-1&s=1" className="card-img-top" alt="..." />
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/ce/39/02/bay-view-bungalow.jpg?w=1400&h=-1&s=1"
+                  className="card-img-top"
+                  style={{
+                    height: '300px !important',
+                    objectFit: 'cover',
+                  }}
+                />
+
                 <div className="card-body">
                   <p className="card-text">Reservez avec nous</p>
                 </div>
@@ -33,7 +46,16 @@ export function Accueil() {
             </div>
             <div className="col col-md-4">
               <div className="card">
-                <img src="https://www.airtahitinui.com/sites/default/files/img-slides/desktop/flyingwithus_spirit_hero_desk1_0.jpg" className="card-img-top" alt="..." />
+                <img
+                  src="https://www.airtahitinui.com/sites/default/files/img-slides/desktop/flyingwithus_spirit_hero_desk1_0.jpg"
+                  className="card-img-top"
+                  style={{
+                    height: '300px !important',
+                    objectFit: 'cover',
+                    objectPosition: '80% 10%',
+                  }}
+                  alt="..."
+                />
                 <div className="card-body">
                   <p className="card-text">Nous contacter</p>
                 </div>
