@@ -9,7 +9,7 @@ export function Accueil() {
       >
         <h2> Pension Puaka </h2>
         <p>
-          La meilleure pension des îles Marquises, situé à Nuku HIva, Taiohae.
+          La meilleure pension des îles Marquises, situé à Nuku Hiva, Taiohae.
           Venez vous ressourcer dans notre pension familliale.
         </p>
 
